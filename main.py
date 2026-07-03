@@ -1,6 +1,7 @@
 import random
 
 choice= input("want to roll dice?[y/n]")
+score = 0
 while choice.lower() == "y":
     print("Rolling dice...")
     dice1 = random.randint(1,6)
@@ -8,8 +9,10 @@ while choice.lower() == "y":
     print(f"({dice1},{dice2})")
 
     total = dice1 + dice2
+    score += total
     print(f"Total: {total}")
-    if total == 13:
+    print(f"score: {score}")
+    if total == 7:
         print("congratulations! you rolled the lucky numbr🥳")
     else:
         print("not so lucky today!")
