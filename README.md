@@ -14,3 +14,8 @@ My first python project
 ## Technologies 
 <br>
 -Python
+<br>
+
+## Author
+<br>
+Samiha Salam Oyshee
