@@ -11,8 +11,5 @@ A console-based dice rolling game built in Python — my first project, used to 
 1. Clone the repo: `git clone https://github.com/samihasoyshee/python-dice-roller-game.git`
 2. Run: `python main.py`
 
-## What I learned
-Functions, loops, lists, and conditional logic in Python.
-
 ## Author
 Samiha Salam Oyshee
